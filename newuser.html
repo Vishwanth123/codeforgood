@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Registration</title>
+    <link rel="stylesheet" href="newuser.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>* Fill Your Details *</h1>
+    <a href="./login.html"><img src="./images/back button png.png" width="50px" alt="" class="back"></a>
+    <hr>
+    <fieldset>
+        <div class="parent">
+            <form>
+                <div class="name">
+                    <label for="name">Enter your full name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="phno">
+                    <label for="phno">Enter your mobile number</label>
+                    <input type="number" name="phno" id="phno">
+                </div>
+                <div class="email">
+                    <label for="email">Enter email address</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="address">
+                    <label for="address">Enter your residential address</label>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+                <div class="state">
+                    <label for="state">Select State</label>
+                    <!--- India states -->
+                    <select id="state" name="state">
+                        <option value="none">--Choose-State--</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PY">Puducherry</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+                </div>
+                <div class="dob">
+                    <label for="dob">Enter your date of birth</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="register">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>

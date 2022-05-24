@@ -1,0 +1,59 @@
+.login{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px white,-5px -5px 10px white;
+    background-image: linear-gradient(white,rgb(81, 157, 244));
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+.back{
+    position: absolute;
+    top: 15px;
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+}
+input{
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+label{
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+}
+button{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+body{
+    background-image: url(https://i.pinimg.com/474x/c4/7f/ee/c47fee9306b7942986bdadd46ca8318c.jpg);
+    background-size:cover ;
+}
+.newuser,.forgotpass{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+a:hover{
+    color:blue;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px white;
+}
